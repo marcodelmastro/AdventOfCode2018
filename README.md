@@ -4,3 +4,11 @@ I did not participate to Advent Of Code in December 2018 (I only discovered the 
 
 https://adventofcode.com/2018
 
+## ChangeLog
+
+* Day 1: January 2020
+* Day 2: January 2020
+* Day 3: January 2020
+* Day 4: 
+* Day 5: 2021-02-07
+* Day 6: 2021-02-07
