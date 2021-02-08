@@ -11,4 +11,6 @@ https://adventofcode.com/2018
 * Day 3: January 2020
 * Day 4: 
 * Day 5: 2021-02-07
+    * String slicing and comparing. Probably faster with RegEx is I only knew how to properly use them
 * Day 6: 2021-02-07
+    * Voronoi tassellation with Manhattan distance!
