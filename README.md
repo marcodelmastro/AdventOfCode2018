@@ -15,4 +15,4 @@ https://adventofcode.com/2018
 * Day 6: 2021-02-07
     * Voronoi tassellation with Manhattan distance!
 * Day 7:
-    * Part 1: 2021-02-14. Directed graph analysis using `networkx` library.
+    * Part 1: 2021-02-14. Directed graph analysis using `networkx` library, plus my own implementation of topological sorting.
