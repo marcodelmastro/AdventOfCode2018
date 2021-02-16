@@ -16,3 +16,7 @@ https://adventofcode.com/2018
     * Voronoi tassellation with Manhattan distance!
 * Day 7:
     * Part 1: 2021-02-14. Directed graph analysis using `networkx` library, plus my own implementation of topological sorting.
+* Day 8:
+* Day 9: 2021-02-16
+    * Double-sided linked list, implemented as a dictionary of size-2 list (left and right neighbours of key marble)
+    * Using `defaultdict` to keep track of played marbles for faster access
