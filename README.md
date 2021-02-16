@@ -20,3 +20,6 @@ https://adventofcode.com/2018
 * Day 9: 2021-02-16
     * Double-sided linked list, implemented as a dictionary of size-2 list (left and right neighbours of key marble)
     * Using `defaultdict` to keep track of played marbles for faster access
+* Day 10: 2021-02-16
+    * Fun 2D particle evolution that eventually forms a message. 
+    * I decied to use panel size as condition to stop evolution (shrinking and the growing again), but I considered possible others (e.g. several columns in panel to be fully filled, corresponding to letter vertical traits). The advantage of the size condition is that I don't need to fill the grid to visualize the message at each step, only to look for minimum and maximum coordinates.
