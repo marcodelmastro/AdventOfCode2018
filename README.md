@@ -27,3 +27,6 @@ https://adventofcode.com/2018
     * Summed-area table to speed up Part 2
 * Day 12: 2021-03-04
     * 1-D Conway game of lifes. Part 2 requires finding pattern repetition and compute solution, since evolution simulation is impossible (too long)
+* Day 13:
+* Day 14:
+  * Part 1: 2021-03-05. Weird sequence generation
