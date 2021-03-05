@@ -31,3 +31,5 @@ https://adventofcode.com/2018
 * **Day 13**:
 * **Day 14**: 2021-03-05
     * Weird sequence generation. For Part 2 it took me some time to understand why my ending condition for the brute force loop was not working for the input, while it did ok for the examples. It obviously had to do with the input format, and how the ending digit can be generated.
+* **Day 15**: 2021-03-05
+    * Another Conway game of life, with a period appearing after 500+ iterations. Finding period is again needed to solve Part 2.
