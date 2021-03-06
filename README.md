@@ -19,7 +19,7 @@ https://adventofcode.com/2018
     * Part 1: 2021-02-14. Directed graph analysis using `networkx` library, plus my own implementation of topological sorting.
 	* Part 2: **TODO**
 * **Day 8**:
-* Day 9: 2021-02-16
+* **Day 9**: 2021-02-16
     * Double-sided linked list, implemented as a dictionary of size-2 list (left and right neighbours of key marble)
     * Using `defaultdict` to keep track of played marbles for faster access
 * **Day 10**: 2021-02-16
@@ -36,4 +36,4 @@ https://adventofcode.com/2018
     * Another Conway game of life, with a period appearing after 500+ iterations. Finding period is again needed to solve Part 2.
 * **Day 16**:
     * Part 1: 2021-03-05. Opcodes! Implementation and then test of what index could represent one or more opcode values
-    * Part 2: 2021-03-05. Now I need to solve the opcode/index correspondence matrix, then implement the virtual machine and run the program... :-)
+    * Part 2: 2021-03-06. Now I need to solve the opcode/index correspondence matrix, then implement the virtual machine and run the program... :-)
