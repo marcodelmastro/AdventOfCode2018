@@ -17,7 +17,7 @@ https://adventofcode.com/2018
     * Voronoi tessellation with Manhattan distance!
 * **Day 7**:
     * Part 1: 2021-02-14. Directed graph analysis using `networkx` library, plus my own implementation of topological sorting.
-	* Part 2: **TODO**
+	* Part 2: 2021-03-08. Using `networkx` `in_degree()` method to flag nodes with no incoming connection, and the graph itself a s queue of nodes to be completed by removing completed nodes from graph with `remove_nodes_from`. It's a somewhat disctructive solution, I might have used a `deque()` or similar to implement the queue, but then I should have also kept track independently of something similar to `in_degree` and updated it with each parent node completion.
 * **Day 8**:
 * **Day 9**: 2021-02-16
     * Double-sided linked list, implemented as a dictionary of size-2 list (left and right neighbours of key marble)
