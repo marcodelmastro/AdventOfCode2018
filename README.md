@@ -29,9 +29,9 @@ https://adventofcode.com/2018
     * Summed-area table to speed up Part 2
 * **Day 12**: 2021-03-04
     * 1-D Conway game of life. Part 2 requires finding pattern repetition and compute solution, since evolution simulation is impossible (too long)
-* **Day 13**:
-    * Part 1: 2021-03-07. Cart simulation. It took me some time to figure out how to deal with angles and turns, ultimately using complex numbers to represent position and directions.
-	* Part 2: **TODO** I have a working modification of Part 1 that solves Part 2, but fails with the input :-( 
+* **Day 13**: 2021-03-07
+    * Part 1: Cart simulation. It took me some time to figure out how to deal with angles and turns, ultimately using complex numbers to represent position and directions.
+	* Part 2: The initial logic to finx collisions was not adapted to solve Part 2, since carts needed to be removed when collision happened, and not at the end of the tick. Changed loop on carts on loop on cart index, and instead of removing carts I declare them dead with negative coordinatd (to be checked). Final code is very patchy but works fine. Next time I'll impkement a class to store all cart info (including a flag for a crashed cart)!
 * **Day 14**: 2021-03-05
     * Weird sequence generation. For Part 2 it took me some time to understand why my ending condition for the brute force loop was not working for the input, while it did ok for the examples. It obviously had to do with the input format, and how the ending digit can be generated.
 * **Day 15**: 2021-03-05
