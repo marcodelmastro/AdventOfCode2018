@@ -43,3 +43,4 @@ https://adventofcode.com/2018
    * Another Conway's Game of Life clone, this tiume with 3 states on a 2D grid. Period/recurrence seeking needed to solve Part 2.
 * **Day 18**:
    * Part 1: opcodes from Day 16 + dedicated register to select instructions (effectively implementing instruction jumps).
+   * Part 2: again an "infinite loop" to be understood (what is the program trying to do?) and probably reimplemented in a more efficient way... This is getting old! :-(
