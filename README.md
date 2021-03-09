@@ -49,3 +49,10 @@ https://adventofcode.com/2018
 * **Day 21**
 * **Day 22**:
    * Part 1: 2021-03-09. Deep recursion to be solved with memoization
+   * Part 2:
+* **Day 23**:
+   * Part 1: 2021-03-09. Quick solution using `numpy` arrays
+   * Part 2:
+* **Day 25**: 2021-03-09
+   * Patchy list manipulation, using `numpy` to compute Manhattan distance. Slow and inefficient, but it works.
+   
