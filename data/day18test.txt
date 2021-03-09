@@ -1,0 +1,115 @@
+def addr(a,b,c,reg):
+    '''(add register) stores into register C the result of adding register A and register B.'''
+    reg[c] = reg[a] + reg[b]
+    return reg
+
+def addi(a,b,c,reg):
+    '''(add immediate) stores into register C the result of adding register A and value B.'''
+    reg[c] = reg[a] + b
+    return reg
+
+def mulr(a,b,c,reg):
+    '''(multiply register) stores into register C the result of multiplying register A and register B.'''
+    reg[c] = reg[a] * reg[b]
+    return reg
+    
+def muli(a,b,c,reg):
+    '''muli (multiply immediate) stores into register C the result of multiplying register A and value B.'''
+    reg[c] = reg[a] * b
+    return reg
+
+def banr(a,b,c,reg):
+    '''(bitwise AND register) stores into register C the result of the bitwise AND of register A and register B.'''
+    reg[c] = reg[a] & reg[b]
+    return reg
+
+def bani(a,b,c,reg):
+    '''(bitwise AND immediate) stores into register C the result of the bitwise AND of register A and value B.'''
+    reg[c] = reg[a] & b
+    return reg
+    
+def borr(a,b,c,reg):
+    ''' (bitwise OR register) stores into register C the result of the bitwise OR of register A and register B.'''
+    reg[c] = reg[a] | reg[b]
+    return reg
+
+def bori(a,b,c,reg):
+    ''' (bitwise OR immediate) stores into register C the result of the bitwise OR of register A and value B.'''
+    reg[c] = reg[a] | b
+    return reg
+
+def setr(a,b,c,reg):
+    ''' (set register) copies the contents of register A into register C. (Input B is ignored.)'''
+    reg[c] = reg[a]
+    return reg
+    
+def seti(a,b,c,reg):
+    ''' (set immediate) stores value A into register C. (Input B is ignored.)'''
+    reg[c] = a
+    return reg
+
+def gtir(a,b,c,reg):
+    ''' (greater-than immediate/register) sets register C to 1 if value A is greater than register B. Otherwise, register C is set to 0.'''
+    if a>reg[b]:
+        reg[c]=1
+    else:
+        reg[c]=0
+    return reg
+    
+def gtri(a,b,c,reg):
+    ''' (greater-than register/immediate) sets register C to 1 if register A is greater than value B. Otherwise, register C is set to 0.'''
+    if reg[a]>b:
+        reg[c]=1
+    else:
+        reg[c]=0
+    return reg
+
+def gtrr(a,b,c,reg):
+    ''' (greater-than register/register) sets register C to 1 if register A is greater than register B. Otherwise, register C is set to 0.'''
+    if reg[a]>reg[b]:
+        reg[c]=1
+    else:
+        reg[c]=0
+    return reg
+    
+def eqir (a,b,c,reg):
+    '''(equal immediate/register) sets register C to 1 if value A is equal to register B. Otherwise, register C is set to 0.'''
+    if a==reg[b]:
+        reg[c]=1
+    else:
+        reg[c]=0
+    return reg
+
+def eqri(a,b,c,reg):
+    ''' (equal register/immediate) sets register C to 1 if register A is equal to value B. Otherwise, register C is set to 0.'''
+    if reg[a]==b:
+        reg[c]=1
+    else:
+        reg[c]=0
+    return reg
+
+def eqrr(a,b,c,reg):
+    ''' (equal register/register) sets register C to 1 if register A is equal to register B. Otherwise, register C is set to 0.'''
+    if reg[a]==reg[b]:
+        reg[c]=1
+    else:
+        reg[c]=0
+    return reg
+
+def opcode(i,a,b,c,reg):
+    if   i==0: return addr(a,b,c,reg)
+    elif i==1: return addi(a,b,c,reg)
+    elif i==2: return mulr(a,b,c,reg)
+    elif i==3: return muli(a,b,c,reg)
+    elif i==4: return banr(a,b,c,reg)
+    elif i==5: return bani(a,b,c,reg)
+    elif i==6: return borr(a,b,c,reg)
+    elif i==7: return bori(a,b,c,reg)
+    elif i==8: return setr(a,b,c,reg)
+    elif i==9: return seti(a,b,c,reg)
+    elif i==10: return gtir(a,b,c,reg)
+    elif i==11: return gtri(a,b,c,reg)
+    elif i==12: return gtrr(a,b,c,reg)
+    elif i==13: return eqir(a,b,c,reg)
+    elif i==14: return eqri(a,b,c,reg)
+    elif i==15: return eqrr(a,b,c,reg) 
