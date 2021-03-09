@@ -44,3 +44,8 @@ https://adventofcode.com/2018
 * **Day 18**:
    * Part 1: opcodes from Day 16 + dedicated register to select instructions (effectively implementing instruction jumps).
    * Part 2: again an "infinite loop" to be understood (what is the program trying to do?) and probably reimplemented in a more efficient way... This is getting old! :-(
+* **Day 19**
+* **Day 20**
+* **Day 21**
+* **Day 22**:
+   * Part 1: 2021-03-09. Deep recursion to be solved with memoization
