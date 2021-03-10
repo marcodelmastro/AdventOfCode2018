@@ -49,7 +49,7 @@ https://adventofcode.com/2018
 * **Day 21**
 * **Day 22**:
    * Part 1: 2021-03-09. Deep recursion to be solved with memoization
-   * Part 2:
+   * Part 2: 2021-03-10. Implemented a BFS search with a `PriorityQueue` to follow paths leading to shorter time (is this a Dijkstra's algorithm?). Struggled to get the solution to work on the full input, the problem was the way I was keeping track of the `visited` cells, that was initially only considering the position/equipement pair but not the traveled time. Got an hint about this on reddit (thanks AOC community!). Also implement use of better heuristic in `PriorityQueue` also accounting for position distance and not only traveled time: covergence happens in about half the time!
 * **Day 23**:
    * Part 1: 2021-03-09. Quick solution using `numpy` arrays
    * Part 2:
