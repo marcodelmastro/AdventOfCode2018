@@ -20,7 +20,7 @@ https://adventofcode.com/2018
 	* Part 2: 2021-03-08. Using `networkx` `in_degree()` method to flag nodes with no incoming connection, and the graph itself a s queue of nodes to be completed by removing completed nodes from graph with `remove_nodes_from`. It's a somewhat disctructive solution, I might have used a `deque()` or similar to implement the queue, but then I should have also kept track independently of something similar to `in_degree` and updated it with each parent node completion.
 * **Day 8**:
     * Part 1: 2021-03-11. Recursive call to same function. Popping value from list before and after recursive calls, passing remaining value list and current sum. I don't know why this problem scared be and I only found the gut to attack it after having solved many lated days. Part 1 one was ultimately relatively simple if embracing recursion power.
-    * Part 2:
+    * Part 2: 2021-03-11. Slight modification of Part 1, more recursion galore!
 * **Day 9**: 2021-02-16
     * Double-sided linked list, implemented as a dictionary of size-2 list (left and right neighbours of key marble)
     * Using `defaultdict` to keep track of played marbles for faster access
