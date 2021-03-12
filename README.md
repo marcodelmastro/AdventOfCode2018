@@ -49,8 +49,7 @@ https://adventofcode.com/2018
     * Weird sequence generation. For Part 2 it took me some time to understand why my ending condition for the brute force loop was not working for the input, while it did ok for the examples. It obviously had to do with the input format, and how the ending digit can be generated.
     
 * **Day 15**: 
-    * A fancy mixture of path finding and unit tracking to simulate a battle. 
-    * 2021-03-11: I began to implement the pathfinding part, still missing all battle logic: this is going to be a long project...
+
     
 * **Day 16**:
     * Part 1: 2021-03-05. Opcodes! Implementation and then test of what index could represent one or more opcode values
