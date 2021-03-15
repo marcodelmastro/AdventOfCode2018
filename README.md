@@ -21,7 +21,7 @@ https://adventofcode.com/2018
 
 * **Day 7**:
     * Part 1: 2021-02-14. Directed graph analysis using `networkx` library, plus my own implementation of topological sorting.
-	* Part 2: 2021-03-08. Using `networkx` `in_degree()` method to flag nodes with no incoming connection, and the graph itself a s queue of nodes to be completed by removing completed nodes from graph with `remove_nodes_from`. It's a somewhat disctructive solution, I might have used a `deque()` or similar to implement the queue, but then I should have also kept track independently of something similar to `in_degree` and updated it with each parent node completion.
+    * Part 2: 2021-03-08. Using `networkx` `in_degree()` method to flag nodes with no incoming connection, and the graph itself a s queue of nodes to be completed by removing completed nodes from graph with `remove_nodes_from`. It's a somewhat disctructive solution, I might have used a `deque()` or similar to implement the queue, but then I should have also kept track independently of something similar to `in_degree` and updated it with each parent node completion.
 
 * **Day 8**:
     * Part 1: 2021-03-11. Recursive call to same function. Popping value from list before and after recursive calls, passing remaining value list and current sum. I don't know why this problem scared be and I only found the gut to attack it after having solved many lated days. Part 1 one was ultimately relatively simple if embracing recursion power.
@@ -43,13 +43,13 @@ https://adventofcode.com/2018
 
 * **Day 13**: 2021-03-07
     * Part 1: Cart simulation. It took me some time to figure out how to deal with angles and turns, ultimately using complex numbers to represent position and directions.
-	* Part 2: The initial logic to find collisions was not adapted to solve Part 2, since carts needed to be removed when collision happened, and not at the end of the tick. Changed loop on carts on loop on cart index, and instead of removing carts I declare them dead with negative coordinate (to be checked). Final code is very patchy but works fine. Next time I'll implement a class to store all cart info (including a flag for a crashed cart)!
+    * Part 2: The initial logic to find collisions was not adapted to solve Part 2, since carts needed to be removed when collision happened, and not at the end of the tick. Changed loop on carts on loop on cart index, and instead of removing carts I declare them dead with negative coordinate (to be checked). Final code is very patchy but works fine. Next time I'll implement a class to store all cart info (including a flag for a crashed cart)!
 
 * **Day 14**: 2021-03-05
     * Weird sequence generation. For Part 2 it took me some time to understand why my ending condition for the brute force loop was not working for the input, while it did ok for the examples. It obviously had to do with the input format, and how the ending digit can be generated.
     
 * **Day 15**: 
-    * Part 1: 2021-03-14. This took several sessions (and days) to get right. The most complicated part was to get the movements and distance measuring right: after many attempts, BFS (saving only path lenght) was the winning option!
+    * Part 1: 2021-03-14. This took several sessions (and days!) to get it right. The most complicated part was to get the movements and distance measuring right: after many attempts, BFS (saving only path lenght) was the winning option!
     * Part 2: 2021-03-14. Once Part 1 was done, modifications for Part 2 were simple!
 
 * **Day 16**:
