@@ -56,16 +56,20 @@ https://adventofcode.com/2018
     * Part 1: 2021-03-05. Opcodes! Implementation and then test of what index could represent one or more opcode values
     * Part 2: 2021-03-06. Now I need to solve the opcode/index correspondence matrix, then implement the virtual machine and run the program... :-)
 
+* **Day 17**: **TODO**
+
 * **Day 18**: 2021-03-06
    * Another Conway's Game of Life clone, this time with 3 states on a 2D grid. Period/recurrence seeking needed to solve Part 2.
 
 * **Day 19**:
    * Part 1: opcodes from Day 16 + dedicated register to select instructions (effectively implementing instruction jumps).
-   * Part 2: again an "infinite loop" to be understood (what is the program trying to do?) and probably reimplemented in a more efficient way... This is getting old! :-(
+   * Part 2: **TODO** (again an "infinite loop" to be understood - what is the program trying to do? - and probably reimplemented in a more efficient way... This is getting old!)
 
-* **Day 20**
-
-* **Day 21**
+* **Day 20**: 2021-03-16
+   * Grid navigation with branchings, inputs is similar ot a DFS solution of a maze. Instead of mapping the maze itself, Part 1 is solved by keepting track of minimum distance from origin (where minimum is choses when two or more possible paths pass for that location). Hoping this won't make solution of Part 2 impossible (e.g. if maze mapping is needed)
+   * Part 2 solution took 4 lines, no tru mapping needed, dictionay of minimal distances was more then enough!
+   
+* **Day 21**: **TODO**
 
 * **Day 22**:
    * Part 1: 2021-03-09. Deep recursion to be solved with memoization
@@ -73,9 +77,11 @@ https://adventofcode.com/2018
 
 * **Day 23**:
    * Part 1: 2021-03-09. Quick solution using `numpy` arrays
-   * Part 2:
+   * Part 2: **TODO**
 
-* **Day 24**
+* **Day 24**: 2021-03-17
+   * Another simulation a bit like Day 15, but luckily without movements! 
+   * Part 2 can be solved with brute force search, but one must implement a stopping mechanism to deal with stalling matches. 
 
 * **Day 25**: 2021-03-09
    * Patchy list manipulation, using `numpy` to compute Manhattan distance. Slow and inefficient, but it works.
