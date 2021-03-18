@@ -62,8 +62,8 @@ https://adventofcode.com/2018
    * Another Conway's Game of Life clone, this time with 3 states on a 2D grid. Period/recurrence seeking needed to solve Part 2.
 
 * **Day 19**:
-   * Part 1: opcodes from Day 16 + dedicated register to select instructions (effectively implementing instruction jumps).
-   * Part 2: **TODO** (again an "infinite loop" to be understood - what is the program trying to do? - and probably reimplemented in a more efficient way... This is getting old!)
+   * Part 1: 2021-03-07. Opcodes from Day 16 + dedicated register to select instructions (effectively implementing instruction jumps).
+   * Part 2: 2021-03-18. An "infinite loop" to be understood deconstructing the program (both the output and the instructions themselves: what is the program trying to do?) and to be reimplemented in a more efficient way... This is getting old! 
 
 * **Day 20**: 2021-03-16
    * Grid navigation with branchings, inputs is similar ot a DFS solution of a maze. Instead of mapping the maze itself, Part 1 is solved by keepting track of minimum distance from origin (where minimum is choses when two or more possible paths pass for that location). Hoping this won't make solution of Part 2 impossible (e.g. if maze mapping is needed)
