@@ -69,7 +69,8 @@ https://adventofcode.com/2018
    * Grid navigation with branching, inputs is similar ot a DFS solution of a maze. Instead of mapping the maze itself, Part 1 is solved by keeping track of minimum distance from origin (where minimum is chosen when two or more possible paths pass for that location). Hoping this won't make solution of Part 2 impossible (e.g. if maze mapping is needed)
    * Part 2 solution took 4 lines, no true mapping needed, dictionary of minimal distances was more then enough!
    
-* **Day 21**: **TODO**
+* **Day 21**: 2021-03-19
+   * Another pseudo-assembly code. Solution of both Part 1 and Part 2 require understanding what the program is doing, then reimplementing the same calculation in an efficient way. Part 2 adds the need or finding a repetition in the input values halting the program.
 
 * **Day 22**:
    * Part 1: 2021-03-09. Deep recursion to be solved with memoization
