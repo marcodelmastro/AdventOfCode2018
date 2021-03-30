@@ -56,7 +56,8 @@ https://adventofcode.com/2018
     * Part 1: 2021-03-05. Opcodes! Implementation and then test of what index could represent one or more opcode values
     * Part 2: 2021-03-06. Now I need to solve the opcode/index correspondence matrix, then implement the virtual machine and run the program... :-)
 
-* **Day 17**: **TODO**
+* **Day 17**: 2021-03-30. 
+    * I as initially rather scared by this puzzle, but I ended up enjying quite a lot. A few specific cases in the full input reqwuired some debuggin of the water flow and filling logic, but I managed in a reasonable time to undestand how fix them. Given how I decided to store the water information (separating flowing and still water) Part 2 was trivial!
 
 * **Day 18**: 2021-03-06
    * Another Conway's Game of Life clone, this time with 3 states on a 2D grid. Period/recurrence seeking needed to solve Part 2.
