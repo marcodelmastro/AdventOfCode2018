@@ -57,7 +57,7 @@ https://adventofcode.com/2018
     * Part 2: 2021-03-06. Now I need to solve the opcode/index correspondence matrix, then implement the virtual machine and run the program... :-)
 
 * **Day 17**: 2021-03-30. 
-    * I as initially rather scared by this puzzle, but I ended up enjying quite a lot. A few specific cases in the full input reqwuired some debuggin of the water flow and filling logic, but I managed in a reasonable time to undestand how fix them. Given how I decided to store the water information (separating flowing and still water) Part 2 was trivial!
+    * I as initially rather scared by this puzzle, but I ended up enjoying quite a lot. A few specific cases in the full input required some debugging of the water flow and filling logic, but I managed in a reasonable time to understand how fix them. Given how I decided to store the water information (separating flowing and still water) Part 2 was trivial!
 
 * **Day 18**: 2021-03-06
    * Another Conway's Game of Life clone, this time with 3 states on a 2D grid. Period/recurrence seeking needed to solve Part 2.
@@ -71,7 +71,7 @@ https://adventofcode.com/2018
    * Part 2 solution took 4 lines, no true mapping needed, dictionary of minimal distances was more then enough!
    
 * **Day 21**: 2021-03-19
-   * Another pseudo-assembly code. Solution of both Part 1 and Part 2 require understanding what the program is doing, then reimplementing the same calculation in an efficient way. Part 2 adds the need or finding a repetition in the input values halting the program.
+   * Another pseudo-assembly code. Solution of both Part 1 and Part 2 require understanding what the program is doing, then re-implementing the same calculation in an efficient way. Part 2 adds the need or finding a repetition in the input values halting the program.
 
 * **Day 22**:
    * Part 1: 2021-03-09. Deep recursion to be solved with memoization
@@ -88,3 +88,6 @@ https://adventofcode.com/2018
 * **Day 25**: 2021-03-09
    * Patchy list manipulation, using `numpy` to compute Manhattan distance. Slow and inefficient, but it works.
    
+![50 stars](./AOC2018_50stars.png "50 stars")
+
+![A glowing red nose](./AOC2018_rednose.png "Santa")
