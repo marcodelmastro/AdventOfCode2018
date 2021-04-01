@@ -79,8 +79,8 @@ https://adventofcode.com/2018
 
 * **Day 23**:
    * Part 1: 2021-03-09. Quick solution using `numpy` arrays
-   * Part 2: **TODO**
-
+   * Part 2: 2021-04-01. This was by far the most difficult problem of the year! I made several attempts of various approaches, peered on reddit to find some hint, ended up choosing to treat the problem as graph exploiting the `networkx` library I discovered for Day 7 to do the heavy lifting to solve the so-called Clique problem.
+   
 * **Day 24**: 2021-03-17
    * Another simulation a bit like Day 15, but luckily without movements! 
    * Part 2 can be solved with brute force search, but one must implement a stopping mechanism to deal with stalling matches. 
