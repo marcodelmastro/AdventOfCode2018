@@ -88,6 +88,6 @@ https://adventofcode.com/2018
 * **Day 25**: 2021-03-09
    * Patchy list manipulation, using `numpy` to compute Manhattan distance. Slow and inefficient, but it works.
    
-![50 stars](./AOC2018_50stars.png "50 stars")
+![50 stars](./AOC2018_50stars.PNG "50 stars")
 
-![A glowing red nose](./AOC2018_rednose.png "Santa")
+![A glowing red nose](./AOC2018_rednose.PNG "Santa")
